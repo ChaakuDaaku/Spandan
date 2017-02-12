@@ -35,9 +35,10 @@
                 position: relative;
                 float: right;
                 overflow: auto;
-                margin:auto;
+                margin: auto;
                 padding-top: 50px;
                 word-wrap: break-word;
+                padding-right: 10px
             }
             .footer {
                 position: relative;
@@ -46,8 +47,7 @@
                 text-align: center;
             }
             .article{
-                margin-left: auto;
-                margin-right: auto;
+                margin: 0 auto;
                 padding: 0px;
                 max-width: 70%;
                 background-color: indigo;
@@ -57,18 +57,19 @@
             .image{
                 max-height: 100%;
                 max-width: 100%;
+                margin: 0 auto;
             }
             .breaker{
                 background-color: dimgray;
             }
-            
-            /*@media only screen (min-width: 1024px) and (max-width: 1920px){
-            }*/
+
+            @media only screen and (min-width: 1400px){
+                .article{
+                    max-width: 980px;
+                }
+            }
             @media only screen and (max-width: 1023px){
                 .article{
-                    margin-left: auto;
-                    margin-right: auto;
-                    padding: 0px;
                     max-width: 70%;
                     background-color: indianred;
                     overflow: hidden;        
@@ -82,8 +83,7 @@
             }
             @media only screen and (max-width: 767px){
                 .article{
-                    margin-left: auto;
-                    margin-right: auto;
+                    margin: 0 auto;
                     padding: 0px;
                     max-width: 96%;
                     background-color: palevioletred;
@@ -98,6 +98,7 @@
             }
             @media only screen and (max-width: 419px){
                 .article{
+                    margin: 0 auto;
                     max-width: 100%;
                     padding: 0px;
                     background-color: orangered;
@@ -225,7 +226,7 @@
             </style>
     </head>
 <body>
-    <div style="position: relative; overflow-x: auto; overflow-y: scroll; background-color:#145678">
+    <div style="position: relative; overflow-x: auto; background-color:#145678">
         <div class="header" style="position: relative;">
             <div style="position: relative;" class="logo">
                 <h1 style="line-height: 0.9em;font-size: 53px;padding-top: 20px;" class="font_0">
