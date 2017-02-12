@@ -1,22 +1,23 @@
+<!DOCTYPE html>
 <html>
     <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta charset="utf-8">
-    <title>Spandan Clinic</title>
-    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1">
-    <meta property="og:title" content="Spandan Clinic">
-    <meta property="og:type" content="article">
-    <meta property="og:site_name" content="Spandan Clinic">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="utf-8">
+        <title>Spandan Clinic</title>
+        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1">
+        <meta property="og:title" content="Spandan Clinic">
+        <meta property="og:type" content="article">
+        <meta property="og:site_name" content="Spandan Clinic">
         <style>
             *{
-                margin:0px;
+                margin: 0px;
                 box-sizing: border-box;
                 padding: 0px;
             }
             .header {
                 background-color: whitesmoke;
                 text-align: left;
-
+                overflow: hidden;
             }
             .logo {
                 word-wrap:break-word;
@@ -33,7 +34,8 @@
             .topphone{
                 position: relative;
                 float: right;
-                margin: auto;
+                overflow: auto;
+                margin:auto;
                 padding-top: 50px;
                 word-wrap: break-word;
             }
@@ -46,9 +48,11 @@
             .article{
                 margin-left: auto;
                 margin-right: auto;
+                padding: 0px;
                 max-width: 70%;
                 background-color: indigo;
                 overflow: hidden;
+                clear: both;
             }
             .image{
                 max-height: 100%;
@@ -64,9 +68,11 @@
                 .article{
                     margin-left: auto;
                     margin-right: auto;
+                    padding: 0px;
                     max-width: 70%;
                     background-color: indianred;
                     overflow: hidden;        
+                    clear: both;
                 }
                 .logo {
                 word-wrap:break-word;
@@ -78,9 +84,11 @@
                 .article{
                     margin-left: auto;
                     margin-right: auto;
+                    padding: 0px;
                     max-width: 96%;
                     background-color: palevioletred;
                     overflow: hidden;
+                    clear: both;
                 }
                 .logo {
                     word-wrap:break-word;
@@ -91,8 +99,10 @@
             @media only screen and (max-width: 419px){
                 .article{
                     max-width: 100%;
+                    padding: 0px;
                     background-color: orangered;
                     overflow: hidden;
+                    clear: both;
                 }
                 .logo {
                     word-wrap:break-word;
@@ -214,8 +224,8 @@
                 }*/
             </style>
     </head>
-<body style="max-width: 720px;">
-    <div style="position: absolute; overflow-x: auto; overflow-y: scroll; background-color:#145678">
+<body>
+    <div style="position: relative; overflow-x: auto; overflow-y: scroll; background-color:#145678">
         <div class="header" style="position: relative;">
             <div style="position: relative;" class="logo">
                 <h1 style="line-height: 0.9em;font-size: 53px;padding-top: 20px;" class="font_0">
@@ -281,14 +291,15 @@
         </div>
         <div class="article" style="position: relative;">
             <img src="cover.jpg" class="image">
-
+            
             <p style="text-align: center; font-size: 30px; padding-top: 25px" class="color_2">
                     " सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः ।
             </p>
+            
             <p style="text-align: center; font-size: 30px;" class="color_2">
                     सर्वे भद्राणि पश्यन्तु मा कश्चिद्दुःखभाग्भवेत् ॥ "
             </p>
-
+            
             <p style="text-align: center; font-size: 30px;" class="color_2">
                     (All should/must be happy, be healthy, see good; may no one have a share in sorrow)
             </p>
@@ -296,7 +307,8 @@
             <p style="line-height: 1.4em; font-size: 24px; padding-bottom: 15px" class="color_2" ;="" align="center">
                     We at Spandan,&nbsp;offer optimal care to our&nbsp;patients, upholding the highest possible standards.&nbsp;We are proficient in dealing with various rheumatological conditions, diabetes and gynaecological conditions.
             </p>
-            <div style="position: relative;padding-left: 200px;padding-bottom: 30px;padding-top: 30px;">
+
+            <div style="position: relative; box-sizing: content-box;padding: 30px;">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/jSFbzUyQt4Y" frameborder="0" allowfullscreen="">
                 </iframe>
             </div>
