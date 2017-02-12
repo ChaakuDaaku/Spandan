@@ -6,7 +6,7 @@
             "type": "edge",
             "request": "launch",
             "file": "${workspaceRoot}/index.html"
-        },
+        }/*,
        {
             "name": "Launch localhost with sourcemaps",
             "type": "edge",
@@ -14,7 +14,7 @@
             "url": "http://localhost/index.html",
             "sourceMaps": true,
             "webRoot": "wwwroot"
-        }/*,
+        },
         {
             "name": "Attach",
             "type": "edge",
