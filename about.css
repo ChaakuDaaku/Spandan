@@ -1,0 +1,37 @@
+.image{
+    max-height: 100%;
+    max-width: 100%;
+}
+.breaker{
+    background-color: dimgray;
+}
+@media only screen and (max-width: 1023px){
+    .article, .header-wrapper, .footer-wrapper{
+        max-width: 70%;
+    }
+    .logo {
+    word-wrap:break-word;
+    padding-left: 15%;
+    float: left;
+    }
+}
+@media only screen and (max-width: 767px){
+    .article, .header-wrapper, .footer-wrapper{
+        max-width: 96%;
+    }
+    .logo {
+        word-wrap:break-word;
+        padding-left: 2%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 419px){
+    .article{
+        max-width: 100%;                
+    }
+    .logo {
+        word-wrap:break-word;
+        padding-left: 0%;
+        float: left;
+    }
+}s
