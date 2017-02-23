@@ -5,6 +5,44 @@
 .breaker{
     background-color: dimgray;
 }
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+}
+.address{
+    float: left;
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 25px;
+}
+.map{
+    float: left;
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+button:hover{
+	background: #4CAF50;
+	color: #2f3036;
+}
+
+@media only screen and (min-width: 12560px){
+    .article, .header-wrapper, .footer-wrapper{
+        max-width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .article, .header-wrapper, .footer-wrapper{
+        max-width: 65%;
+    }
+}
 @media only screen and (max-width: 1023px){
     .article, .header-wrapper, .footer-wrapper{
         max-width: 70%;
@@ -14,8 +52,11 @@
     padding-left: 15%;
     float: left;
     }
+    .map, .address{
+        align-content: center;
+    }
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 768px){
     .article, .header-wrapper, .footer-wrapper{
         max-width: 96%;
     }
@@ -23,6 +64,9 @@
         word-wrap:break-word;
         padding-left: 2%;
         float: left;
+    }
+    .map, .address{
+        align-content: center;
     }
 }
 @media only screen and (max-width: 419px){

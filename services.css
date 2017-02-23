@@ -4,11 +4,28 @@
 }
 .imagediv{
     position: relative;
-    max-height:376px;
+    max-height:377px;
 }
 .breaker{
     background-color: dimgray;
     width: 100%;
+}
+@media only screen and (max-width: 1377px){
+    .article, .header-wrapper, .footer-wrapper{
+        max-width: 70%;
+    }
+    .logo {
+    word-wrap:break-word;
+    padding-left: 15%;
+    float: left;
+    }
+    .imagediv{
+        max-height: 368px;
+    }
+    .breaker{
+    background-color: dimgray;
+    width: 100%;
+}
 }
 @media only screen and (max-width: 1023px){
     .article, .header-wrapper, .footer-wrapper{
@@ -37,7 +54,7 @@
         float: left;
     }
     .imagediv{
-        max-height: 378px;
+        max-height: 321px;
     }
     .breaker{
     background-color: dimgray;
