@@ -3,7 +3,7 @@
     max-width: 100%;
 }
 .breaker{
-    background-color: dimgray;
+    background-color: rgba(74, 74, 74, 1);
 }
 .button {
     background-color: #008CBA;
@@ -20,7 +20,7 @@
     float: left;
     padding-left: 50px;
     padding-right: 20px;
-    font-size: 25px;
+    font-size: 26px;
 }
 .map{
     float: left;
@@ -31,48 +31,13 @@ button:hover{
 	background: #4CAF50;
 	color: #2f3036;
 }
-/*
-@media only screen and (min-width: 2560px){
-    .article, .head-wrapper, .footer-wrapper{
-        max-width: 25%;
-    }
-}
-*/
-@media only screen and (min-width: 1400px){
-    .article, .head-wrapper, .footer-wrapper{
-        max-width: 980px;
-    }
-}
 @media only screen and (max-width: 1023px){
-    .article, .head-wrapper, .footer-wrapper{
-        max-width: 70%;
-    }
-    .logo {
-    word-wrap:break-word;
-    float: left;
-    }
     .map, .address{
         align-content: center;
     }
 }
 @media only screen and (max-width: 768px){
-    .article, .head-wrapper, .footer-wrapper{
-        max-width: 96%;
-    }
-    .logo {
-        word-wrap:break-word;
-        float: left;
-    }
     .map, .address{
         align-content: center;
-    }
-}
-@media only screen and (max-width: 419px){
-    .article, .head-wrapper, .footer-wrapper{
-        max-width: 100%;                
-    }
-    .logo {
-        word-wrap:break-word;
-        float: left;
     }
 }

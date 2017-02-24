@@ -30,7 +30,7 @@
     position:relative;
     padding-bottom: 10px;
     padding-top: 90px;
-    padding-left: 15px;
+    padding-left: 10px;
     
 }
 ul.topnav {
@@ -61,13 +61,15 @@ ul.topnav li.right {float: right;}
     position: relative;
     float: right;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 64px;
+    padding-right: 8px;
     word-wrap: break-word;
 }
 .footer {
     position: relative;
-    padding: 2rem;
-    background-color: whitesmoke;
+    padding: 1rem;
+    height: 182px;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 .footer-wrapper{
@@ -75,7 +77,7 @@ ul.topnav li.right {float: right;}
     padding: 0px;
     display: inline-block;
     max-width: 70%;
-    background-color:inherit;
+    background-color: transparent;
     overflow: hidden;
     clear: both;
 }
@@ -87,6 +89,28 @@ ul.topnav li.right {float: right;}
     overflow: hidden;
     clear: both;
 }
+
+@media only screen and (min-width: 1400px){
+    .article, .head-wrapper, .footer-wrapper{
+        max-width: 980px;
+    }
+}
+@media only screen and (max-width: 1023px){
+    .article, .head-wrapper, .footer-wrapper{
+        max-width: 70%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .article, .head-wrapper, .footer-wrapper{
+        max-width: 96%;
+    }
+}
+@media only screen and (max-width: 479px){
+    .article, .head-wrapper, .footer-wrapper{
+        max-width: 100%;                
+    }
+}
+
 .font_0 {font:normal normal normal 50px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif ;color:#868686;}
 .font_1 {font:normal normal normal 16px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif ;color:#868686;}
 .font_2 {font:normal normal normal 49px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif ;color:#868686;}
