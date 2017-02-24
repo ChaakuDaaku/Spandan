@@ -31,16 +31,16 @@ button:hover{
 	background: #4CAF50;
 	color: #2f3036;
 }
-
-@media only screen and (min-width: 12560px){
+/*
+@media only screen and (min-width: 2560px){
     .article, .head-wrapper, .footer-wrapper{
         max-width: 25%;
     }
 }
-
+*/
 @media only screen and (min-width: 1400px){
     .article, .head-wrapper, .footer-wrapper{
-        max-width: 65%;
+        max-width: 980px;
     }
 }
 @media only screen and (max-width: 1023px){
@@ -49,7 +49,6 @@ button:hover{
     }
     .logo {
     word-wrap:break-word;
-    padding-left: 15%;
     float: left;
     }
     .map, .address{
@@ -62,7 +61,6 @@ button:hover{
     }
     .logo {
         word-wrap:break-word;
-        padding-left: 2%;
         float: left;
     }
     .map, .address{
@@ -70,12 +68,11 @@ button:hover{
     }
 }
 @media only screen and (max-width: 419px){
-    .article{
+    .article, .head-wrapper, .footer-wrapper{
         max-width: 100%;                
     }
     .logo {
         word-wrap:break-word;
-        padding-left: 0%;
         float: left;
     }
 }

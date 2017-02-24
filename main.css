@@ -1,22 +1,26 @@
 *{
-    margin:0px;
+    margin:0 auto;
     box-sizing: border-box;
     padding: 0px;
 }
 .head-wrapper{
     margin: 0 auto;
     padding: 0px;
+    height: inherit;
     max-width: 70%;
     background-color: inherit;
     overflow: hidden;
     clear: both;
 }
 .header {
+    height: 182px;
     background-color: whitesmoke;
     text-align: left;
     overflow: hidden;
 }
 .logo {
+    top: 35px;
+    left: 6px;
     word-wrap:break-word;
     float: left;
 }
@@ -25,8 +29,8 @@
     text-align: center;
     position:relative;
     padding-bottom: 10px;
-    padding-top: 130px;
-    padding-left: 30px;
+    padding-top: 90px;
+    padding-left: 15px;
     
 }
 ul.topnav {
