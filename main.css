@@ -71,6 +71,7 @@ ul.topnav li.right {float: right;}
     height: 182px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
+    width: auto;
 }
 .footer-wrapper{
     margin: 0 auto;
@@ -81,6 +82,25 @@ ul.topnav li.right {float: right;}
     overflow: hidden;
     clear: both;
 }
+.bottomphone{
+    position: relative;
+    display: inherit;
+    float: left;
+}
+.bottomemail{
+    position: relative;
+    display: inherit;
+    float: left;
+    padding-left: 30px;
+    padding-top: 1rem;
+}
+.bottomsocial{
+    position: relative;
+    display: inherit;
+    float: right;
+    padding-top: 1rem;
+    padding-left: 30px;
+}
 .article{
     margin: 0 auto;
     padding: 0px;
@@ -90,12 +110,12 @@ ul.topnav li.right {float: right;}
     clear: both;
 }
 
-@media only screen and (min-width: 1400px){
+@media only screen and (min-width: 1440px){
     .article, .head-wrapper, .footer-wrapper{
         max-width: 980px;
     }
 }
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1024px){
     .article, .head-wrapper, .footer-wrapper{
         max-width: 70%;
     }
@@ -104,10 +124,20 @@ ul.topnav li.right {float: right;}
     .article, .head-wrapper, .footer-wrapper{
         max-width: 96%;
     }
+    .bottomphone, .bottomemail, .bottomsocial{
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 15px;
+    }
 }
 @media only screen and (max-width: 479px){
     .article, .head-wrapper, .footer-wrapper{
         max-width: 100%;                
+    }
+    .bottomphone, .bottomemail, .bottomsocial{
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 15px;
     }
 }
 

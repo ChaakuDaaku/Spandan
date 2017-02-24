@@ -26,18 +26,86 @@
     float: left;
     padding-bottom: 50px;
     padding-left: 10px;
+    height: 380px;
+    width: 420px;
+}
+.tagline{
+    word-wrap: normal;
+    font-size: 48px;
+}
+.video{
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 button:hover{
 	background: #4CAF50;
 	color: #2f3036;
 }
-@media only screen and (max-width: 1023px){
+@media only screen and (min-width: 1440px){
     .map, .address{
         align-content: center;
     }
+    .video{
+        height: 315px;
+        width: 550px;
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .address{
+        align-content: center;
+        padding-left: 120px;
+    }
+    .map{
+        align-content: center;
+        padding-left: 120px;
+        height: 320px;
+        width: 560px;
+    }
+    .video{
+        height: 315px;
+        width: 550px;
+        padding-bottom: 30px;
+    }
 }
 @media only screen and (max-width: 768px){
-    .map, .address{
+    .address{
         align-content: center;
+        padding-left: 200px;
+    }
+    .map{
+        align-content: center;
+        padding-left: 150px;
+        height: 380px;
+        width: 590px;
+    }
+    .tagline{
+        font-size: 28px;
+    }
+    .video{
+        height: 315px;
+        width: 550px;
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 479px){
+    .address{
+        align-content: center;
+        padding-left: 15px;
+    }
+    .map{
+        align-content: center;
+        padding-left: 15px;
+        height: 250px;
+        width: 400px;
+    }
+    .tagline{
+        font-size: 28px;
+    }
+    .video{
+        height: 250px;
+        width: 440px;
+        padding-bottom: 30px;
     }
 }
