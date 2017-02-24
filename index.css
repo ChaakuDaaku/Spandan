@@ -33,18 +33,18 @@ button:hover{
 }
 
 @media only screen and (min-width: 12560px){
-    .article, .header-wrapper, .footer-wrapper{
+    .article, .head-wrapper, .footer-wrapper{
         max-width: 25%;
     }
 }
 
 @media only screen and (min-width: 1400px){
-    .article, .header-wrapper, .footer-wrapper{
+    .article, .head-wrapper, .footer-wrapper{
         max-width: 65%;
     }
 }
 @media only screen and (max-width: 1023px){
-    .article, .header-wrapper, .footer-wrapper{
+    .article, .head-wrapper, .footer-wrapper{
         max-width: 70%;
     }
     .logo {
@@ -57,7 +57,7 @@ button:hover{
     }
 }
 @media only screen and (max-width: 768px){
-    .article, .header-wrapper, .footer-wrapper{
+    .article, .head-wrapper, .footer-wrapper{
         max-width: 96%;
     }
     .logo {
