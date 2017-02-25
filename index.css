@@ -38,6 +38,8 @@
     position: relative;
     padding-bottom: 30px;
     padding-top: 30px;
+    height: 315px;
+    width: 550px;
 }
 button:hover{
 	background: #4CAF50;
