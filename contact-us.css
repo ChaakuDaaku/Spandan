@@ -55,11 +55,18 @@ input[type=submit]:hover {
     position: relative;
     float: left;
 }
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1024px){
     
 }
-@media only screen and (max-width: 767px){
-    
+@media only screen and (max-width: 768px){
+    .address{
+        width: 100%;
+    }
+    .container_2{
+        padding-left: 100px;
+        margin-left: 200px;
+        margin-bottom: 50px;
+    }
 }
 @media only screen and (max-width: 419px){
     

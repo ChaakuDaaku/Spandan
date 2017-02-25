@@ -24,6 +24,31 @@
     word-wrap:break-word;
     float: left;
 }
+.logofirst{
+    line-height: 0.9em;
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    font-size: 63px;
+    color: #868686;
+}
+.logosecond{
+    line-height: 0.9em;
+    font-size: 63px;
+    font-family: helvetica-w01-light, helvetica-w02-light, helvetica-lt-w10-light, sans-serif;
+    left: 0;
+    padding-top: 4px; 
+    color: #868686;
+}
+.logothird{
+    line-height: 0.9em;
+    font-size: 20px;
+    font-family: helvetica-w01-light, helvetica-w02-light, helvetica-lt-w10-light, sans-serif;
+    color: #868686;
+}
+.logoplus{
+    width: 47px;
+    height: 47px;
+    object-fit: fill;
+}
 .navigation{
     display:inline-block;
     text-align: center;
@@ -115,10 +140,16 @@ ul.topnav li.right {float: right;}
         max-width: 980px;
     }
 }
+@media only screen and (max-width: 1440px){
+    .article, .head-wrapper, .footer-wrapper{
+        max-width: 980px;
+    }
+}
 @media only screen and (max-width: 1024px){
     .article, .head-wrapper, .footer-wrapper{
         max-width: 70%;
     }
+    .logo
 }
 @media only screen and (max-width: 768px){
     .article, .head-wrapper, .footer-wrapper{
@@ -131,6 +162,9 @@ ul.topnav li.right {float: right;}
     }
 }
 @media only screen and (max-width: 479px){
+    .logo{
+        word-wrap: normal;
+    }
     .article, .head-wrapper, .footer-wrapper{
         max-width: 100%;                
     }
@@ -141,7 +175,6 @@ ul.topnav li.right {float: right;}
     }
 }
 
-.font_0 {font:normal normal normal 50px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif ;color:#868686;}
 .font_1 {font:normal normal normal 16px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif ;color:#868686;}
 .font_2 {font:normal normal normal 49px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif ;color:#868686;}
 .font_3 {font:normal normal normal 55px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif ;color:#868686;}
@@ -223,8 +256,6 @@ ul.topnav li.right {float: right;}
 .backcolor_34 {background-color:#A08802;}
 .color_35 {color:#504401;}
 .backcolor_35 {background-color:#504401;}
-
-.s2imgimage {position:static;box-shadow:#000 0 0 0;}
 
 .s4screenWidthBackground {position:relative;top:0;right:0;bottom:0;left:0;}
 .s4[data-state~="mobileView"] {position:relative !important;}
