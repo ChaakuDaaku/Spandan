@@ -15,5 +15,12 @@
     
 }
 @media only screen and (max-width: 419px){
-    
+    .article{
+        max-width: 100%;                
+    }
+    .logo {
+        word-wrap:break-word;
+        padding-left: 0%;
+        float: left;
+    }
 }
