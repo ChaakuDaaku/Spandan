@@ -4,26 +4,62 @@
 }
 .breaker{
     background-color: dimgray;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    height: auto;
+    text-align: center;
+    word-wrap: break-word;
+}
+.address{
+    float: left;
+    padding-left: 100px;
+    padding-right: 20px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+input[type=text], select, textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #008CBA;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: dimgray;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: relative;
+    float: left;
+    bottom: 50px;
+}
+.container_2 {
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: relative;
+    float: left;
 }
 @media only screen and (max-width: 1023px){
-    .article, .header-wrapper, .footer-wrapper{
-        max-width: 70%;
-    }
-    .logo {
-    word-wrap:break-word;
-    padding-left: 15%;
-    float: left;
-    }
+    
 }
 @media only screen and (max-width: 767px){
-    .article, .header-wrapper, .footer-wrapper{
-        max-width: 96%;
-    }
-    .logo {
-        word-wrap:break-word;
-        padding-left: 2%;
-        float: left;
-    }
+    
 }
 @media only screen and (max-width: 419px){
     .article{
@@ -35,3 +71,4 @@
         float: left;
     }
 }
+    

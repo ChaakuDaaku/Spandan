@@ -10,15 +10,7 @@
     background-color: dimgray;
     width: 100%;
 }
-@media only screen and (max-width: 1377px){
-    .article, .header-wrapper, .footer-wrapper{
-        max-width: 70%;
-    }
-    .logo {
-    word-wrap:break-word;
-    padding-left: 15%;
-    float: left;
-    }
+@media only screen and (max-width: 1440px){
     .imagediv{
         max-height: 368px;
     }
@@ -28,14 +20,6 @@
 }
 }
 @media only screen and (max-width: 1023px){
-    .article, .header-wrapper, .footer-wrapper{
-        max-width: 70%;
-    }
-    .logo {
-    word-wrap:break-word;
-    padding-left: 15%;
-    float: left;
-    }
     .imagediv{
         max-height: 320px;
     }
@@ -45,14 +29,6 @@
 }
 }
 @media only screen and (max-width: 767px){
-    .article, .header-wrapper, .footer-wrapper,{
-        max-width: 96%;
-    }
-    .logo {
-        word-wrap:break-word;
-        padding-left: 2%;
-        float: left;
-    }
     .imagediv{
         max-height: 321px;
     }
