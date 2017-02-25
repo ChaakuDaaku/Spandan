@@ -4,7 +4,6 @@
 }
 .breaker{
     background-color: rgba(74, 74, 74, 1);
-    animation: 
 }
 .button {
     background-color: #008CBA;
@@ -39,19 +38,19 @@
     padding-bottom: 30px;
     padding-top: 30px;
     height: 315px;
-    width: 550px;
+    width: 560px;
 }
 button:hover{
 	background: #4CAF50;
 	color: #2f3036;
 }
-@media only screen and (min-width: 1440px){
+@media only screen and (max-width: 1440px){
     .map, .address{
         align-content: center;
     }
     .video{
-        height: 315px;
-        width: 550px;
+        height: 540px;
+        width: 960px;
         padding-bottom: 30px;
     }
 }
@@ -67,8 +66,8 @@ button:hover{
         width: 560px;
     }
     .video{
-        height: 315px;
-        width: 550px;
+        height: 288px;
+        width: 512px;
         padding-bottom: 30px;
     }
 }

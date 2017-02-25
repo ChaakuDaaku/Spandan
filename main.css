@@ -149,7 +149,6 @@ ul.topnav li.right {float: right;}
     .article, .head-wrapper, .footer-wrapper{
         max-width: 70%;
     }
-    .logo
 }
 @media only screen and (max-width: 768px){
     .article, .head-wrapper, .footer-wrapper{
