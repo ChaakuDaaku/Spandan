@@ -6,17 +6,17 @@
 .head-wrapper{
     margin: 0 auto;
     padding: 0px;
-    height: inherit;
+    height: 180px;
     max-width: 70%;
     background-color: inherit;
     overflow: hidden;
     clear: both;
 }
 .header {
-    height: 182px;
     background-color: whitesmoke;
     text-align: left;
     overflow: hidden;
+    max-height: none;
 }
 .logo {
     top: 35px;
@@ -53,10 +53,8 @@
     display:inline-block;
     text-align: center;
     position:relative;
-    padding-bottom: 10px;
-    padding-top: 90px;
-    padding-left: 10px;
-    
+    float: left;
+    top: 120px;
 }
 ul.topnav {
     list-style-type: none;
@@ -86,9 +84,17 @@ ul.topnav li.right {float: right;}
     position: relative;
     float: right;
     margin: auto;
-    padding-top: 64px;
+    top: 64px;
     padding-right: 8px;
     word-wrap: break-word;
+}
+.article{
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 70%;
+    background-color: white;
+    overflow: hidden;
+    clear: both;
 }
 .footer {
     position: relative;
@@ -126,15 +132,6 @@ ul.topnav li.right {float: right;}
     padding-top: 1rem;
     padding-left: 30px;
 }
-.article{
-    margin: 0 auto;
-    padding: 0px;
-    max-width: 70%;
-    background-color: white;
-    overflow: hidden;
-    clear: both;
-}
-
 @media only screen and (min-width: 1440px){
     .article, .head-wrapper, .footer-wrapper{
         max-width: 980px;
@@ -149,6 +146,12 @@ ul.topnav li.right {float: right;}
     .article, .head-wrapper, .footer-wrapper{
         max-width: 70%;
     }
+    .topphone{
+        top: 20px;
+    }
+    .navigation{
+        right: 100px;
+    }
 }
 @media only screen and (max-width: 768px){
     .article, .head-wrapper, .footer-wrapper{
@@ -159,18 +162,41 @@ ul.topnav li.right {float: right;}
         padding-left: 0px;
         padding-top: 15px;
     }
+    .logofirst, .logosecond{
+        font-size: 45px;
+    }
+    .logothird{
+        font-size: 10px;
+    }
+    .navigation{
+        top: 120px;
+    }
 }
 @media only screen and (max-width: 479px){
     .logo{
         word-wrap: normal;
     }
     .article, .head-wrapper, .footer-wrapper{
-        max-width: 100%;                
+        max-width: 100%;
+        height: auto;
     }
     .bottomphone, .bottomemail, .bottomsocial{
         width: 100%;
         padding-left: 0px;
         padding-top: 15px;
+    }
+    .logofirst, .logosecond{
+        font-size: 45px;
+    }
+    .logothird{
+        font-size: 10px;
+    }
+    .topphone{
+        top: -80px;
+    }
+    .navigation{
+        top: 50px;
+        left: 60px;
     }
 }
 
