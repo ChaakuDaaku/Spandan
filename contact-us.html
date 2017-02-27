@@ -58,7 +58,7 @@
         </div>
         <div class="article">
             <div class="container">
-                <form action="/action_page.php" method="post">
+                <form action="/action_page.php" method="post" name="contact_form">
                     <caption>
                         <center>
                             <h1>Contact Form</h1>
@@ -76,7 +76,8 @@
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
 
-                    <input type="submit" value="Submit" name="submit">
+                    <input type="submit" value="Submit" name="submit" onClick="clearField()">
+          
                 </form>
             </div>
             <div class="address">
@@ -124,5 +125,10 @@
             </div>
         </div>
     </div>
+    <script>
+        function clearField(){
+            document.contact_form.reset();
+        }
+    </script>
 </body>
 </html>
