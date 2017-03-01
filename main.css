@@ -186,7 +186,7 @@ ul.topnav li.right {float: right;}
         padding-top: 15px;
     }
     .logofirst, .logosecond{
-        font-size: 45px;
+        font-size: 40px;
     }
     .logothird{
         font-size: 10px;
@@ -196,7 +196,7 @@ ul.topnav li.right {float: right;}
     }
     .navigation{
         top: 50px;
-        left: 60px;
+        left: 30px;
     }
 }
 

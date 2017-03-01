@@ -1,35 +1,42 @@
 .image1{
-    max-height: 75%;
+    max-height: 65%;
     max-width: 75%;
     align-content: center;
+    padding-top: 20px;
 }
 .image2{
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 80%;
+    max-width: 80%;
     align-content: center;
+    top: 10px;
+    padding-top: 20px;
+
 }
 .breaker{
     background-color: dimgray;
 }
 .sachin{
-    height: 846px;
+    max-height: 950px;
     width: 50%;
     float: left;
     text-align: justify;
-    padding: 70px;
-    border-right: 2px solid;
-    border-right-color: #008CBA;
-    font-size: 18px;
+    word-wrap: normal;
+    clear: both;
+    padding-bottom: 20px;
+    position: relative;
+    overflow: hidden;
 }
 .deepti{
     width: 50%;
-    height: 846px;
+    max-height: 620px;
     float: left;
     text-align: justify;
-    padding: 70px;
     border-left: 2px solid;
     border-left-color: #008CBA;
-    font-size: 18px;
+    word-wrap: normal;
+    padding-bottom: 20px;
+    position: relative;
+    overflow: hidden;
 }
 @media only screen and (min-width: 1440px){
     
@@ -38,15 +45,29 @@
     
 }
 @media only screen and (max-width: 767px){
-    
+    .sachin{
+        width: 100%;
+        border-bottom: 2px solid;
+        border-bottom-color: #008CBA;
+        height: 100;
+    }
+    .deepti{
+        width: 100%;
+        border-top: 2px solid;
+        border-top-color: #008CBA;
+        height: 100%;
 }
 @media only screen and (max-width: 419px){
-    .article{
-        max-width: 100%;                
+    .sachin{
+        width: 100%;
+        border-bottom: 2px solid;
+        border-bottom-color: #008CBA;
+        height: 720px;
     }
-    .logo {
-        word-wrap:break-word;
-        padding-left: 0%;
-        float: left;
+    .deepti{
+        width: 100%;
+        border-top: 2px solid;
+        border-top-color: #008CBA;
+        height: 600px;
     }
 }
