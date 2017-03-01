@@ -1,9 +1,35 @@
-.image{
+.image1{
+    max-height: 75%;
+    max-width: 75%;
+    align-content: center;
+}
+.image2{
     max-height: 100%;
     max-width: 100%;
+    align-content: center;
 }
 .breaker{
     background-color: dimgray;
+}
+.sachin{
+    height: 846px;
+    width: 50%;
+    float: left;
+    text-align: justify;
+    padding: 70px;
+    border-right: 2px solid;
+    border-right-color: #008CBA;
+    font-size: 18px;
+}
+.deepti{
+    width: 50%;
+    height: 846px;
+    float: left;
+    text-align: justify;
+    padding: 70px;
+    border-left: 2px solid;
+    border-left-color: #008CBA;
+    font-size: 18px;
 }
 @media only screen and (min-width: 1440px){
     
