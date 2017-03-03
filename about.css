@@ -28,7 +28,7 @@
 }
 .deepti{
     width: 50%;
-    max-height: 620px;
+    max-height: 730px;
     float: left;
     text-align: justify;
     border-left: 2px solid;
@@ -62,12 +62,10 @@
         width: 100%;
         border-bottom: 2px solid;
         border-bottom-color: #008CBA;
-        height: 720px;
     }
     .deepti{
         width: 100%;
         border-top: 2px solid;
         border-top-color: #008CBA;
-        height: 600px;
     }
 }
