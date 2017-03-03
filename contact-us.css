@@ -47,6 +47,7 @@ input[type=submit]:hover {
     position: relative;
     float: left;
     bottom: 50px;
+    top: 0px;
 }
 .container_2 {
     border-radius: 20px;
@@ -55,8 +56,9 @@ input[type=submit]:hover {
     position: relative;
     float: left;
 }
+@media only screen and (max-width: 1440px){
+}
 @media only screen and (max-width: 1024px){
-    
 }
 @media only screen and (max-width: 768px){
     .address{
@@ -72,7 +74,7 @@ input[type=submit]:hover {
 }
 @media only screen and (max-width: 419px){
     .article{
-        max-width: 100%;                
+        max-width: 100%;
     }
     .logo {
         word-wrap:break-word;
