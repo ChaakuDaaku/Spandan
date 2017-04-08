@@ -54,20 +54,144 @@
         </div>
         <div class="article" style="position: relative;">
             <div class="imagediv">
-                <img src="cover.jpg" class="image" name="cover">
+                <img src="prescription.jpg" class="image" name="cover">
             </div>
         </div>
         <div class="breaker" style="position:relative;">
             <center>
-                <p class="color_1" style="font-size: 27px">
+                <p class="color_1" style="font-size: 36px;">
                     Book an appointment and take care of you and your loved ones
                 </p>
             </center>
         </div>
         <div class="article" style="position: relative;">
-            <!Enter your specialities here>
-            asdfashfashjfashfhasjkdfhkjashfkjhaskfhasjkhfkjsadhfkhasjkhfdjkashfhasjhfjkahsjdfhjaskhdfjkhsakfdhjkashfjkasdjkfhajskhfjkakfjakjhsdfklhasjkfhjahdfkajshfdkjhahfdlkashfkjashfkja
-            asdfkjashahlkfhaskjhfjashfkja asfdhkahsjhfasjfd hagsldhfkjjashfhahsafdhfsdahfasshfdshsadfasdkkjfasdfasdk
+            <div style="padding-left: 80px; padding-top: 50px; padding-right: 80px; padding-bottom:25px; word-wrap:normal;">
+                <center><h1 style="color:#868686">Specialist Services</h1 ></center>
+                <ul style="font-size: 21px; color:#868686">
+                    <li>Specialised Rheumatology treatment & Guidance regarding Rheumatological conditions like Rheumatoid Arthritis, Osteoarthritis, Systemic Lupus Erythmatosis, Scleroderma & Ankylosing spondylosis, etc.</li>
+                    <li>Gynaecological treatments and counselling.</li>
+                    <li>Pregnancy Guidance & Counselling.</li>
+                    <li>Specialised Diabetic centre with guidance regarding Sugar Control, Diet Planning & Exercise Planning.</li>
+                    <li>Neuropathy CheckUp.</li>
+                    <li>ECG.</li>
+                    <li>All Pathological Blood tests are done (Collection Centre).</li>
+                    <li>All sort of Adult Vaccinations.</li>
+                </ul>
+            </div>
+            <hr width=900px align=center size=5px noshade=noshade>
+            <h2 align=center style="color:#868686">Appointment Timings</h2>
+            <div align=center style="padding-top:15px; padding-left:175px; padding-bottom: 100px; color:#868686; font-size: 18px">
+                <div style="padding-right: 25px; float:left">
+                    <p>
+                        Dr. Sachin Katarkar<br>
+                        Mon-Sat: 10:00 am-12:30 pm<br>
+                        Mon-Fri except Thurs- 7:30pm-10:00pm<br>
+                    </p>
+                </div>
+                <hr width=2px size=50px style="float:left;">
+                <div style="padding-left: 25px; padding-right: 50px;float:left">
+                    <p>
+                        Dr. Deepti Katarkar<br>
+                        Mon-Sat: 12:30 pm-2:30 pm<br>
+                        Mon-Friday:6:00 pm- 7:30 pm<br>
+                    </p>
+                </div>
+            </div>
+            <div style=" width: 700px; height: 400px; border-radius: 10px; float: left; left: 0px; margin-left:100px">
+                <img src="sachin.jpg" style="border-radius:130px; width: 260px; height: 260px;float:left;" align=center>
+                <div style="float:left; width: 440px; padding-top: 100px;">
+                    <h1 style="color:#868686; padding-left: 100px">Dr. Sachin Katarkar</h1>
+                    <button id="ap1" class="button" style="margin-left: 150px; margin-top: 25px">Book</button>
+                </div>
+                <div align=center id="sachinmodal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Appointment form</h2>
+                        </div>
+                        <div class="container">
+                        <form method="get" action="/appsubmit.php">
+                            Full Name <input type="text" placeholder="Enter your full name">
+                            <br>
+                            Gender<select>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select><br>
+                            Select Date
+                            <input type="date"><br>
+                            Select time slot
+                            <select>
+                                <option>10:00 am</option>
+                                <option>10:30 am</option>
+                                <option>11:00 am</option>
+                                <option>11:30 am</option>
+                                <option>12:00 am</option>
+                                <option>7:30 pm</option>
+                                <option>8:00 pm</option>
+                                <option>8:30 pm</option>
+                                <option>9:00 pm</option>
+                                <option>9:30 am</option>
+                            </select>
+                            <br>
+                            Have You attended our clinic before
+                            <input type="radio" value="Yes" name="haveyou">Yes
+                            <input type="radio" value="No" name="haveyou">No
+                            <br>
+                            Select which appointment(s) you require<br>
+                            <input type="checkbox" name="apcheck" value="Diabetes"> Diabetes
+                            <br>
+                            <input type="checkbox" name="apcheck" value="Rheumatology"> Rheumatology
+                            <br>
+                            <input type="submit" value="Submit">
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style=" width: 700px; height: 400px; border-radius: 10px; float: left; left: 0px; margin-left:100px">
+                <img src="deepti.png" style="border-radius:130px; width: 260px; height: 260px;float:left;" align=center>
+                <div style="float:left; width: 440px; padding-top: 100px;">
+                    <h1 style="color:#868686; padding-left: 100px">Dr. Deepti Katarkar</h1>
+                    <button id="ap2" class="button" style="margin-left: 150px; margin-top: 25px">Book</button>
+                </div>
+                <div align=center id="deeptimodal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Appointment form</h2>
+                        </div>
+                        <form method="get" action="/appsubmit.php">
+                            Full Name <input type="text" placeholder="Enter your full name">
+                            <br>
+                            Gender<select>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select><br>
+                            Select Date
+                            <input type="date"><br>
+                            Select time slot
+                            <select>
+                                <option>12:30 pm</option>
+                                <option>1:00 pm</option>
+                                <option>1:30 pm</option>
+                                <option>2:30 pm</option>
+                                <option>6:00 pm</option>
+                                <option>6:30 pm</option>
+                                <option>7:00 pm</option>
+                            </select>
+                            <br>
+                            Have You attended our clinic before
+                            <input type="radio" value="Yes" name="haveyou">Yes
+                            <input type="radio" value="No" name="haveyou">No
+                            <br>
+                            Select which appointment(s) you require<br>
+                            <input type="checkbox" name="apcheck" value="Diabetes"> Gynaecology
+                            <br>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="footer">
             <div class="footer-wrapper">
@@ -102,5 +226,39 @@
             </div>
         </div>
     </div>
+        <script>
+// Get the modal
+var smodal = document.getElementById('sachinmodal');
+var dmodal = document.getElementById('deeptimodal')
+// Get the button that opens the modal
+var btn1 = document.getElementById("ap1");
+var btn2 = document.getElementById("ap2"); 
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn1.onclick = function() {
+    smodal.style.display = "block";
+}
+btn2.onclick = function() {
+    dmodal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    smodal.style.display = "none";
+    dmodal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == smodal) {
+        smodal.style.display = "none";
+    }
+    if (event.target == dmodal){
+        dmodal.style.display = "none";
+    }
+}
+</script>
 </body>
 </html>
