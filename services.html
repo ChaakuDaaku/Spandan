@@ -103,47 +103,55 @@
                     <h1 style="color:#868686; padding-left: 100px">Dr. Sachin Katarkar</h1>
                     <button id="ap1" class="button" style="margin-left: 150px; margin-top: 25px">Book</button>
                 </div>
-                <div align=center id="sachinmodal" class="modal">
+                <div id="sachinmodal" class="modal">
                     <div class="modal-content">
                         <div class="modal-header">
                             <span class="close">&times;</span>
                             <h2>Appointment form</h2>
                         </div>
                         <div class="container">
-                        <form method="get" action="/appsubmit.php">
-                            Full Name <input type="text" placeholder="Enter your full name">
-                            <br>
-                            Gender<select>
+                            <form method="POST" action="sachin_appointment.php">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name">
+                                <br>
+                                <label for="gender">Gender</label>
+                                <select name="gender">
                                     <option value="Male">Male</option>
                                     <option value="Female">Female</option>
-                                </select><br>
-                            Select Date
-                            <input type="date"><br>
-                            Select time slot
-                            <select>
-                                <option>10:00 am</option>
-                                <option>10:30 am</option>
-                                <option>11:00 am</option>
-                                <option>11:30 am</option>
-                                <option>12:00 am</option>
-                                <option>7:30 pm</option>
-                                <option>8:00 pm</option>
-                                <option>8:30 pm</option>
-                                <option>9:00 pm</option>
-                                <option>9:30 am</option>
-                            </select>
-                            <br>
-                            Have You attended our clinic before
-                            <input type="radio" value="Yes" name="haveyou">Yes
-                            <input type="radio" value="No" name="haveyou">No
-                            <br>
-                            Select which appointment(s) you require<br>
-                            <input type="checkbox" name="apcheck" value="Diabetes"> Diabetes
-                            <br>
-                            <input type="checkbox" name="apcheck" value="Rheumatology"> Rheumatology
-                            <br>
-                            <input type="submit" value="Submit">
-                        </form>
+                                </select>
+                                <br>
+                                <label for="date">Date</label>
+                                <input type="date" name="date">
+                                <br>
+                                <label for="time">Time</label>
+                                <select name="time">
+                                    <option>10:00 am</option>
+                                    <option>10:30 am</option>
+                                    <option>11:00 am</option>
+                                    <option>11:30 am</option>
+                                    <option>12:00 am</option>
+                                    <option>7:30 pm</option>
+                                    <option>8:00 pm</option>
+                                    <option>8:30 pm</option>
+                                    <option>9:00 pm</option>
+                                    <option>9:30 am</option>
+                                </select>
+                                <br>
+                                <div align=center style="padding-top: 10px; padding-bottom: 10px;">
+                                    <label for="radio">Have you visited us before?</label>
+                                    <br>
+                                    <input type="radio" value="Yes" name="haveyou">Yes
+                                    <input type="radio" value="No" name="haveyou">No
+                                </div>
+                                <div align=center style="padding-top: 10px; padding-bottom: 10px;">
+                                    <label for="diabcheck">Select which appointment(s) you want?</label><br>
+                                    <input type="checkbox" name="diabcheck" value="Diabetes"> Diabetes &nbsp;&nbsp;
+                                    <input type="checkbox" name="rheumocheck" value="Rheumatology"> Rheumatology
+                                    <br>
+                                    <br>
+                                    <input type="submit" value="Submit" name="submit">
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -160,17 +168,22 @@
                             <span class="close">&times;</span>
                             <h2>Appointment form</h2>
                         </div>
-                        <form method="get" action="/appsubmit.php">
-                            Full Name <input type="text" placeholder="Enter your full name">
-                            <br>
-                            Gender<select>
+                        <div class="container">
+                            <form method="POST" action="sachin_appointment.php">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name">
+                                <br>
+                                <label for="gender">Gender</label>
+                                <select name="gender">
                                     <option value="Male">Male</option>
                                     <option value="Female">Female</option>
-                                </select><br>
-                            Select Date
-                            <input type="date"><br>
-                            Select time slot
-                            <select>
+                                </select>
+                                <br>
+                                <label for="date">Date</label>
+                                <input type="date" name="date">
+                                <br>
+                                <label for="time">Time</label>
+                                <select name="time">
                                 <option>12:30 pm</option>
                                 <option>1:00 pm</option>
                                 <option>1:30 pm</option>
@@ -180,15 +193,21 @@
                                 <option>7:00 pm</option>
                             </select>
                             <br>
-                            Have You attended our clinic before
-                            <input type="radio" value="Yes" name="haveyou">Yes
-                            <input type="radio" value="No" name="haveyou">No
-                            <br>
-                            Select which appointment(s) you require<br>
-                            <input type="checkbox" name="apcheck" value="Diabetes"> Gynaecology
-                            <br>
-                            <input type="submit" value="Submit">
-                        </form>
+                                <div align=center style="padding-top: 10px; padding-bottom: 10px;">
+                                    <label for="radio">Have you visited us before?</label>
+                                    <br>
+                                    <input type="radio" value="Yes" name="haveyou">Yes
+                                    <input type="radio" value="No" name="haveyou">No
+                                </div>
+                                <div align=center style="padding-top: 10px; padding-bottom: 10px;">
+                                    <label for="diabcheck">Select which appointment(s) you want?</label><br>
+                                    <input type="checkbox" name="gyneccheck" value="Gynecology">Gynecology
+                                    <br>
+                                    <br>
+                                    <input type="submit" value="Submit" name="submit">
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
